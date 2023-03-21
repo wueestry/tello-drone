@@ -1,0 +1,5 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- Launch controller output node-->
+    <node pkg="face_tracking" type="face_tracking.py" name="face_tracking" output="screen"/>
+</launch>
