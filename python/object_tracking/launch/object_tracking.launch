@@ -1,0 +1,5 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- Launch controller output node-->
+    <node pkg="object_tracking" type="object_tracking.py" name="object_tracking" output="screen"/>
+</launch>
